@@ -20,8 +20,7 @@ class Solution {
         return ans;
         
     }
-        // Array 1,2,3,4,4,4,4,5,6
-    int binary(int arr[],int m){
+        int binary(int arr[],int m){
         int s =0;
         int e=m-1,res=m;
         while(s<=e){
